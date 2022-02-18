@@ -1,4 +1,5 @@
 #!/usr/bin/env python3.9
+
 import argparse
 from re import S
 import sys
@@ -69,8 +70,6 @@ def stddev(val):
     vari = varinc(val)
     stdev = math.sqrt(vari)
     return stdev
-
-#magnitude = (observed - mean) / stdev
 
 avg = stat.mean(ndata)
 avg = (round(avg, 2))
