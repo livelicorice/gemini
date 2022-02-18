@@ -76,8 +76,6 @@ avg = stat.mean(ndata)
 avg = (round(avg, 2))
 std_dev = stat.pstdev(ndata)
 std_dev = abs(round(std_dev, 3))
-#magnitude = ( current_price - avg ) / std_dev
-#magnitude = abs(round(magnitude, 2))
 
 def magnitude(current_price, avg, std_dev):
     try:
