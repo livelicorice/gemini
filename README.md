@@ -30,7 +30,6 @@ More development can be done to allow an additional command line argument to all
 Further enhancements to allow for log level alerting (ie. 10-debug, 20-info, 30-warning, 40-error, 50-critical) for integration into Nagios, Slack and PagerDuty to ensure visibility of exceeded thresholds.
 
 Additional checks can be developed to add functionality to enable buy, trade, sell thresholds for all currency pairs that can be user specified.
-Other interesting checks you might implement to alert on market behaviour
 
 ### MY APPROACH
 
